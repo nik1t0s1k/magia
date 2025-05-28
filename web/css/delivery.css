@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefaf6;
+    color: #333;
+}
+
+/* Блок информации о заказе */
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 60px auto 40px;
+    padding: 0 20px;
+}
+
+.paket {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.paket img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 16px;
+}
+
+.paket h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #d2691e;
+}
+
+.paket p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card {
+    background-color: #fff6ea;
+    border-left: 5px solid #ff8c42;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 900px;
+    font-size: 15px;
+    color: #5c3d25;
+    border-radius: 10px;
+}
+
+.bron {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    flex-wrap: wrap;
+}
+
+.bron-left img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.bron-right {
+    flex: 1;
+    padding: 30px;
+}
+
+.bron-right h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #c0521f;
+}
+
+.bron-right input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+.bron-right input:focus {
+    border-color: #ff8c42;
+    outline: none;
+}
+
+.input-center,
+.input-end {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-center input,
+.input-end input {
+    flex: 1;
+}
+
+.bron-button {
+    display: inline-block;
+    background-color: #ff8c42;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.bron-button:hover {
+    background-color: #e37326;
+}

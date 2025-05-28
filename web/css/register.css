@@ -1,0 +1,168 @@
+.page {
+    min-height: 100vh;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.authoristion {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.auth_left {
+    flex: 1;
+    padding: 40px;
+    background: #fff3e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #5b3921;
+}
+
+.auth_left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.auth_left h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reg_right {
+    flex: 1;
+    padding: 40px;
+    background: #e8e7e7;
+}
+
+.reg_right h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+form div.form-group {
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+form input:focus {
+    border-color: #ff9f43;
+    outline: none;
+}
+
+button,
+input[type="submit"] {
+    background-color: #e0c785;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #cbb060;
+}
+
+.registration_link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.registration_link a {
+    color: #ff6b00;
+    text-decoration: none;
+}
+
+.registration_link a:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #e8e7e7;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.login-subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.login-form-wrapper {
+    padding: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #c49a6c;
+    box-shadow: 0 0 0 0.1rem rgba(196, 154, 108, 0.25);
+}
+
+.form-check-label {
+    margin-left: 8px;
+    font-weight: 400;
+    color: #555;
+}
+
+.login-btn {
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #e0c785;
+    color: #000;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #cbb060;
+}
+

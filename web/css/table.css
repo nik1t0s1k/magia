@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f5f2;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+.cart {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+}
+
+.cart-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #5a3825;
+    padding-bottom: 10px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.item-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #3e2c23;
+}
+
+.item-details p {
+    margin: 5px 0 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.item-qty {
+    display: flex;
+    align-items: center;
+}
+
+.qty-btn {
+    background-color: #d2b48c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.qty-btn:hover {
+    background-color: #b8946a;
+}
+
+.qty-number {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4e3629;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.remove-btn:hover {
+    color: #c0392b;
+}
+
+.cart-summary {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: #333;
+}
+
+.cart-summary p {
+    margin: 5px 0;
+}
+
+.checkout-btn {
+    display: inline-block;
+    background-color: #8b5e3c;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #6d4429;
+}

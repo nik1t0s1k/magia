@@ -1,0 +1,139 @@
+.about {
+    background-color: #f8f1e7;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-h {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3e2f1c;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    color: #4e3a27;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 700px;
+    font-family: 'Arial', sans-serif;
+}
+
+.features {
+    padding: 60px;
+    background-color: #fff9f2;
+    text-align: center;
+}
+
+.features h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c2c2c;
+}
+
+.features-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.features-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.features-left img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.features-right {
+    max-width: 500px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.shef {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    background-color: #f7f3ea;
+    align-items: center;
+    gap: 40px;
+}
+
+.shef-left img {
+    width: 400px;
+    height: 440px;
+    border-radius: 20px;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.15);
+    margin-left: 100px;
+}
+
+.shef-card {
+    flex: 1;
+    max-width: 700px;
+    margin-left: 70px;
+}
+
+.shef-card h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2c2c2c;
+}
+
+.shef-card p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.shef-right {
+    flex: 0.3;
+}
+
+.gallary {
+    padding: 60px;
+    text-align: center;
+}
+
+.gallary h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2c2c2c;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.photos img {
+    width: 240px;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.photos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+
